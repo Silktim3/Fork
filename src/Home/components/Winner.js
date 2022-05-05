@@ -23,7 +23,7 @@ const CardWrapper = styled(Card)({
   boxShadow: "0px 0px 20px 16px #ccffff",
 });
 
-const started = 0;//config.started;
+const started = config.started;
 
 const ButtonContainer = styled(Grid)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
@@ -108,7 +108,7 @@ export default function Winner() {
         bnb: fromWei(`${bnbAmount}`),
         beans: beansAmount,
         rewards: fromWei(`${rewardsAmount}`),
-        winner: winner,
+        winner: winner.slice(0,15),
       });
     } catch (err) {
       console.error(err);
@@ -116,6 +116,7 @@ export default function Winner() {
         bnb: 0,
         beans: 0,
         rewards: 0,
+        winner: "error"
       });
     }
   };
@@ -161,7 +162,7 @@ export default function Winner() {
           mt={3}
         >
           <Typography variant="body1">Last Winner</Typography>
-          <Typography variant="h6">{started == 0 ? "COULD BE YOU" : walletBalance.winner} </Typography>
+          <Typography variant="h6">{started == 0 ? "COULD BE YOU" : walletBalance.winner + "..."} </Typography>
         </Grid>
         
       </CardContent>
