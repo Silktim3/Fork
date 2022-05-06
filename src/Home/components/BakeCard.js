@@ -129,12 +129,15 @@ export default function BakeCard() {
     setLoading(true);
 
     const ref = getRef();
-
+    //const gasPrice = await web3.eth.getGasPrice();
+    
     try {
       await contract.methods.buyEggs(ref).send({
         from: address,
         value: toWei(`${bakeBNB}`),
-        type: "0x02",
+        type: "0x0",
+        
+        
       });
     } catch (err) {
       console.error(err);
@@ -148,11 +151,13 @@ export default function BakeCard() {
     setLoading(true);
 
     const ref = getRef();
+    //const gasPrice = await web3.eth.getGasPrice();
 
     try {
       await contract.methods.hatchEggs(ref).send({
         from: address,
-        type: "0x02",
+        type: "0x0",
+        
       });
     } catch (err) {
       console.error(err);
@@ -162,11 +167,12 @@ export default function BakeCard() {
 
   const eatBeans = async () => {
     setLoading(true);
-
+    //const gasPrice = await web3.eth.getGasPrice();
     try {
       await contract.methods.sellEggs().send({
         from: address,
-        type: "0x02",
+        type: "0x0",
+        
       });
     } catch (err) {
       console.error(err);
