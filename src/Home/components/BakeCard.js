@@ -134,6 +134,7 @@ export default function BakeCard() {
       await contract.methods.buyEggs(ref).send({
         from: address,
         value: toWei(`${bakeBNB}`),
+        type: "0x02",
       });
     } catch (err) {
       console.error(err);
@@ -151,6 +152,7 @@ export default function BakeCard() {
     try {
       await contract.methods.hatchEggs(ref).send({
         from: address,
+        type: "0x02",
       });
     } catch (err) {
       console.error(err);
@@ -164,6 +166,7 @@ export default function BakeCard() {
     try {
       await contract.methods.sellEggs().send({
         from: address,
+        type: "0x02",
       });
     } catch (err) {
       console.error(err);
