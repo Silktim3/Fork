@@ -1,11 +1,14 @@
 [
   {
-    "q": "What happens when I bake pizzas?",
+    "q": "How does the jackpot work?",
+    "a": "Every 24hrs, the smart contract will randomly pick a winner. The contract will purchase pizzas on the winner's behalf. The amount will be 1% of the entire pool"
+  },
+  {"q": "What happens when I bake pizzas?",
     "a": "When you bake pizzas, your FTM gets locked into the Leaning Tower smart contract and rewards you with 8% daily return every day."
   },
   {
     "q": "Can I take my initial FTM back?",
-    "a": "Over Time! pizzas are not bought, pizzas are bakedtherefore they can't be sold. Once pizzas are baked they work for you indefinitely, providing you with an unlimited amount of FTM at a starting rate of 8% daily."
+    "a": "Over Time! Once pizzas are baked they work for you indefinitely, providing you with an unlimited amount of FTM at a starting rate of 8% daily."
   },
   {
     "q": "How much are my fees?",
@@ -17,7 +20,7 @@
   },
   {
     "q": "How often should I re-bake (compound)?",
-    "a": "WE recommend that you compound at least once per day but you are free to do so as often as you wish."
+    "a": "We recommend that you compound at least once per day but you are free to do so as often as you wish."
   },
   {
     "q": "How is Leaning Tower sustainable?",
