@@ -9,6 +9,7 @@ import ReferralLink from "./components/ReferralLink";
 import { useAuthContext } from "../providers/AuthProvider";
 import Footer from "./components/Footer";
 import FAQs from "./components/FAQ";
+import Improvements from "./components/Improvements";
 import Gallery from "./components/Gallery";
 import TwitterFeed from "./components/TwitterFeed";
 
@@ -33,6 +34,7 @@ export default function Home() {
       <ReferralLink address={address} />
       <TwitterFeed />
       <FAQs />
+      <Improvements />
       <Footer />
     </Wrapper>
   );

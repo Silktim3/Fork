@@ -24,11 +24,9 @@ export default function Header() {
         Leaning Tower of Pizza
       </Typography>
       <Typography variant="h6" marginTop={2}>
-        The FTM Reward Pool with the tastiest daily return and lowest dev fee
+        The FTM Reward Pool with the tastiest daily return and a daily jackpot to win 1% of the entire pool 🍕. Forked from Baked Beans, but vastly improved. See details at the bottom.
       </Typography>
-      <Typography variant="h6" marginTop={2}>
-        Daily jackpot to win 1% of the entire pool 🍕
-      </Typography>
+      
     </Wrapper>
   );
 }

@@ -55,18 +55,19 @@ export default function NutritionFacts() {
           borderTop="6px solid"
         >
           
-           <p> Rewards can be re-invested & withdrawn daily.  </p>
+           <p> Rewards can be re-invested as often as you'd like (MULTIPLY PIZZAS). </p>
+           <p>Withdrawals are every 6 days (EAT PIZZAS). </p>
            <p>To ensure the max rewards (8%), we recommend the following strategy:
           </p>
           <p>
-            Rebake 6 Days/Week & 
-            Eat Pizzas 1 Day/Week
+            Rebake 6 Days & 
+            Eat Pizzas on the 7th Day
             </p>
             This strategy has been battle tested and proven to maximise returns for both the short and long term.
             <p>
             Please note:
 
-            You can not unstake; only withdraw earnings.</p>
+            You can not unstake; only withdraw earnings. Every Baked Beans fork is highly speculative. Only invest what you can afford to lose!</p>
             
         </Typography>
       </CardContent>
