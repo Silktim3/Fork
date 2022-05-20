@@ -36,7 +36,7 @@ export default function ReferralLink({ address }) {
           marginTop={2}
           paddingX={3}
         >
-          Earn 8% of the FTM used to bake pizzas from anyone who uses your
+          Earn 10% of the FTM used to bake pizzas from anyone who uses your
           referral link
         </Typography>
       </CardContent>
