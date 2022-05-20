@@ -210,8 +210,8 @@ export default function BakeCard() {
           alignItems="center"
           mt={3}
         >
-          <Typography variant="body1">Your Pizzas</Typography>
-          <Typography variant="h5">{walletBalance.beans} PIZZAS</Typography>
+          <Typography variant="body1">Pizza Ovens</Typography>
+          <Typography variant="h5">{walletBalance.beans} </Typography>
         </Grid>
         <Box paddingTop={4} paddingBottom={3}>
           <Box>
@@ -239,7 +239,7 @@ export default function BakeCard() {
             mt={3}
           >
             <Typography variant="body1" fontWeight="bolder">
-              Your Rewards
+              Your Pizzas
             </Typography>
             <Typography variant="h5" fontWeight="bolder">
               {walletBalance.rewards} FTM
@@ -254,7 +254,7 @@ export default function BakeCard() {
                 disabled={wrongNetwork || !address || loading}
                 onClick={reBake}
               >
-                MULTIPLY PIZZAS
+                COMPOUND PIZZA OVENS
               </Button>
             </Grid>
             <Grid item flexGrow={1} marginLeft={1} marginTop={3}>

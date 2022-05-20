@@ -1,22 +1,18 @@
 [
   {
     "q": "How does the jackpot work?",
-    "a": "Every 24hrs, the smart contract will randomly pick a winner. The contract will purchase pizzas on the winner's behalf. The amount will be 1% of the entire pool"
+    "a": "Every 24hrs, the smart contract will randomly pick a winner. The contract will purchase pizza ovens on the winner's behalf. The amount will be 1% of the entire pool"
   },
   {"q": "What happens when I bake pizzas?",
-    "a": "When you bake pizzas, your FTM gets locked into the Leaning Tower smart contract and rewards you with 8% daily return every day."
+    "a": "When you bake pizzas, your FTM gets locked into the Leaning Tower smart contract and rewards you with 5% daily return every day."
   },
   {
     "q": "Can I take my initial FTM back?",
-    "a": "Over Time! Once pizzas are baked they work for you indefinitely, providing you with an unlimited amount of FTM at a starting rate of 8% daily."
+    "a": "Over Time! Pizzas are used to purchase pizza ovens, which bake more pizzas continually. There is a limit of 5% of your total stake per withdrawal"
   },
   {
     "q": "How much are my fees?",
-    "a": "There is a small 3% dev fee in order to pay for marketing costs"
-  },
-  {
-    "q": "When is the best time to bake pizzas?",
-    "a": "Always! No matter when you bake pizzas, you will begin with a return rate of 8% daily."
+    "a": "There is a 3% dev fee in order to pay for marketing costs"
   },
   {
     "q": "How often should I re-bake (compound)?",
@@ -24,15 +20,15 @@
   },
   {
     "q": "How is Leaning Tower sustainable?",
-    "a": "Baked pizzas are sustained by continued community support, just as every other crypto coin, token or project. The difference is that since there is no token, there is no price to dump. As long as pizzas are baking in the contract, there will be rewards!"
+    "a": "For now, it is sustained by continued community support. The difference is that since there is no token, there is no price to dump. As long as pizzas are baking in the contract, there will be rewards! In the future, we will look at farming with the contract balance to increase the pool."
   },
   {
-    "q": "How to use Leaning Tower on my phone?",
+    "q": "How do I use Leaning Tower on my phone?",
     "a": "You can either use an app with a dapp browser and choose the Metamask/Injected option or simply use any browser that you want and choose WalletConnect to connect to your wallet's app on your phone."
   },
   {
-    "q": "Is it better to re-bake or eat pizzas?",
-    "a": "By design, re-baking will be more profitable than eating pizzas in the long-term."
+    "q": "Is it better to compound or eat pizzas?",
+    "a": "By design, compounding will be more profitable than eating pizzas in the long-term. You can only eat pizzas every 6 days anyway."
   },
   {
     "q": "How do referrals work?",
@@ -40,6 +36,6 @@
   },
   {
     "q": "When did Leaning Tower launch?",
-    "a": "It launched May 1st, 2022"
+    "a": "It launched in May 2022"
   }
 ]

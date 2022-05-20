@@ -47,6 +47,13 @@ export default function Improvements() {
         <Box sx={style} className="scrollbox">
           <Grid container spacing={2} direction="column" position="relative">
             <Typography variant="h5">
+              Fair Pricing Curve 💰
+            </Typography>
+            <Typography variant="body1" gutterBottom>
+              The existing Baked Beans pricing curve heavily favored early depositors, with a difference in buying efficiency of 100x or more. This essentially doomed later buyers. Here at Leaning Tower, we use flat pricing, so it doesn't matter when you enter. Early participants still have the benefit of compounding their capital earlier.
+            </Typography>
+            
+            <Typography variant="h5">
               1% Daily Lottery 🎲
             </Typography>
             <Typography variant="body1" gutterBottom>
@@ -54,10 +61,10 @@ export default function Improvements() {
             </Typography>
             
             <Typography variant="h5">
-              Withdraw Cooldown (6 days) ⏰
+              Withdraw Cooldown (6 days) and Max Withdrawal ⏰
             </Typography>
             <Typography variant="body1" gutterBottom>
-              Users can only Eat Pizza (withdraw) every 6 days. This keeps the contract balance at a healthy level. 6 days of multiply before eating, folks!
+              Users can only Eat Pizza (withdraw) every 6 days. The withdrawal is also limited to 5% of your total each time. These guardrails keeps the contract balance at a healthy level. 6 days of multiply before eating, folks!
             </Typography>
             
             <Typography variant="h5">
@@ -71,7 +78,7 @@ export default function Improvements() {
               Reduced referral rate 👨‍🚒
             </Typography>
             <Typography variant="body1" gutterBottom>
-              Referral fee has been reduced from 12.5% to 4%. We think 4% is a fair share for those who've marketed successfully, but also prevents them from running away with all the funds. 
+              Referral fee has been reduced from 12.5% to 10% and also removed referrals on compounds. We think this is a fair share for those who've marketed successfully, but also prevents them from running away with all the funds. 
             </Typography>
             
             <Typography variant="h5" gutterBottom>

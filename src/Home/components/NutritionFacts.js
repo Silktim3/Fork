@@ -14,11 +14,11 @@ const CardWrapper = styled(Card)({
 const nutritionFacts = [
   {
     label: "Daily Return",
-    value: 8,
+    value: 5,
   },
   {
     label: "APR",
-    value: "2,920",
+    value: "1,825",
   },
   {
     label: "Marketing Fee",
@@ -55,9 +55,10 @@ export default function NutritionFacts() {
           borderTop="6px solid"
         >
           
-           <p> Rewards can be re-invested as often as you'd like (MULTIPLY PIZZAS). </p>
+           <p>Rewards can be re-invested as often as you'd like (COMPOUND PIZZA OVENS). </p>
            <p>Withdrawals are every 6 days (EAT PIZZAS). </p>
-           <p>To ensure the max rewards (8%), we recommend the following strategy:
+           
+           <p>To ensure the max rewards, we recommend the following strategy:
           </p>
           <p>
             Rebake 6 Days & 
